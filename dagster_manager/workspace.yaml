@@ -1,0 +1,17 @@
+# workspace.yaml
+load_from:
+  - python_module:
+      module_name: "hello_world.definitions"
+#      relative_path: 'D:/DKSH/dagster/hello_world/src/hello_world/definitions.py'
+      working_directory: "D:/DKSH/dagster/hello_world/src"
+      executable_path: "D:/DKSH/dagster/hello_world/.venv/Scripts/python.exe"
+      location_name: "hello_world"
+
+  - python_module:
+      module_name: "metabase_project.definitions"
+#      relative_path: 'D:/DKSH/dagster/metabase_project/src/metabase_project/definitions.py'
+      working_directory: "D:/DKSH/dagster/metabase_project/src"
+      executable_path: "D:/DKSH/dagster/metabase_project/.venv/Scripts/python.exe"
+      location_name: "metabase_project"    
+
+
